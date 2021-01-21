@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body style="background: url('/Users/ahmed1/Desktop/OptionsBackground1.svg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover; " }>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="OptionsLanding.html"> OC </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="OptionsLanding.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> About </a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+<div class="container mt-5">
+<div class="jumbotron" bg-light>
+    <h1 class="display-4"> About </h1>
+        <hr>
+    <p1 class="lead">
+        Options pricer takes user provided information about an options contract such as the greeks, holding
+        period, and anticipated price. Other programs that calculate option prices don't consider implied
+        volatility making earnings plays more vague and risky. With options pricer, Vega and Implied volatility
+        are both considered so traders aren't blindsided by IV Crush. IV crush is an important factor to
+        consider when trading options since even large swings in the right direction can still leave traders at
+        a loss. By anticipating changes in implied volatility, Options Pricer makes earnings plays slightly less
+        daunting.
+    </p1>
+</div>
+</div>
+
+<div class="container mt-5">
+    <div class="jumbotron" bg-light>
+        <h1 class="display-4"> How does it calculate? </h1>
+            <hr>
+        <p1 class="lead">
+            Options pricer takes user provided information about an options contract such as the greeks, holding
+            period, and anticipated price. Other programs that calculate option prices don't consider implied
+            volatility making earnings plays more vague and risky. With options pricer, Vega and Implied volatility
+            are both considered so traders aren't blindsided by IV Crush. IV crush is an important factor to
+            consider when trading options since even large swings in the right direction can still leave traders at
+            a loss. By anticipating changes in implied volatility, Options Pricer makes earnings plays slightly less
+            daunting. To calculate anticipated losses to IV crush before an earnings play, anticipate a 44% drop in 
+            implied volatilty after an earnings release. 
+        </p1>
+    </div>
+    </div> 
+
+    <div class="container mt-5">
+        <div class="jumbotron" bg-light>
+            <h1 class="display-4"> Limitations </h1>
+                <hr>
+            <p1 class="lead">
+                As of now, delta is recalculated using gamma only after entire dollar increments. For example, if I
+                wanted to calculate the price of a security as the value increased from $1 to $1.50, delta would not 
+                be recalculated since the price change was less than a dollar. Additionally, as of now theta is treated
+                as a constant (obviously theta is not a constant in practice) so as holding period increases, the calculator
+                becomes less accurate. Finally, gamma is treated as a constant as well (working on fixing this) so as the price
+                in the underlying security changes, gamma doesn't change at all. I will continue to work on these limitations. If
+                there are any other issues or any features you want implemented feel free to contact me @ahmed.darfur@yale.edu
+    
+            </p1>
+        </div>
+        </div> 
+</body>
+
+</div>
